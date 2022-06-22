@@ -1,0 +1,530 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-apple-darwin11.3.0
+ 
+make: *** No rule to make target `GAME/src/Check.o', needed by `so_long'
+.  Stop.
+
+
+# Make data base, printed on Wed Jun 22 09:42:24 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# makefile
+CURDIR := /Users/aozsayar/Desktop/push3
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"locale":"tr","availableLanguages":{},"_languagePackSupport":true}
+# environment
+_ = /usr/bin/make
+# makefile (from `Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# makefile (from `Makefile', line 9)
+BSRCS = $(wildcard GAME_BONUS/src/*.c)
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# makefile (from `Makefile', line 8)
+OBJS = $(SRCS:.c=.o)
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /var/folders/zz/zyxvpxvq6csfxvn_n000c_rw0032p7/T/vscode-ipc-b1be856a-ca25-45f5-b909-8a54d2de1193.sock
+# environment
+VSCODE_CWD = /
+# environment
+PATH = /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/munki:/Library/Apple/usr/bin
+# environment
+VSCODE_LOG_STACK = false
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
+# makefile (from `Makefile', line 2)
+MINILIBX = ./mlx/libmlx.a -lm
+# environment
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.Dlvf5S6q8A/Listeners
+# automatic
+%F = $(notdir $%)
+# makefile (from `Makefile', line 6)
+BNAME = so_long_bonus
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+PWD = /Users/aozsayar/Desktop/push3
+# makefile (from `Makefile', line 10)
+BOBJS = $(BSRCS:.c=.o)
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /Users/aozsayar
+# default
+MAKEFILEPATH := /Applications/Xcode.app/Contents/Developer/Makefiles
+# environment
+VSCODE_CODE_CACHE_PATH = /Users/aozsayar/Library/Application Support/Code/CachedData/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5
+# environment
+LOGNAME = aozsayar
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+XPC_FLAGS = 0x0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# makefile (from `Makefile', line 7)
+SRCS = $(wildcard GAME/src/*.c)
+# environment
+SHLVL = 1
+# makefile (from `Makefile', line 1)
+CC = gcc
+# default
+MAKE_VERSION := 3.81
+# environment
+USER = aozsayar
+# makefile
+.DEFAULT_GOAL := all
+# makefile (from `Makefile', line 3)
+NAME = so_long
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# makefile (from `Makefile', line 5)
+LFLAGS = -framework OpenGL -framework AppKit
+# default
+MAKE_COMMAND := /Applications/Xcode.app/Contents/Developer/usr/bin/make
+# default
+.VARIABLES := 
+# environment
+TMPDIR = /var/folders/zz/zyxvpxvq6csfxvn_n000c_rw0032p7/T/
+# automatic
+*F = $(notdir $*)
+# environment
+VSCODE_IPC_HOOK = /Users/aozsayar/Library/Application Support/Code/1.67.2-main.sock
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+XPC_SERVICE_NAME = com.microsoft.VSCode.2352
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# automatic
++F = $(notdir $+)
+# environment
+__CF_USER_TEXT_ENCODING = 0x18AC7:0x0:0x0
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+LC_ALL = C
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# makefile (from `Makefile', line 4)
+FLAGS = -Wall -Wextra -Werror
+# default
+.INCLUDE_DIRS = /usr/local/include
+# environment
+MAKELEVEL := 0
+# environment
+LANG = C
+# environment
+VSCODE_PID = 37733
+# variable set hash-table stats:
+# Load=70/1024=7%, Rehash=0, Collisions=11/103=11%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 16777225, inode 897872): 11 files, no impossibilities.
+# GAME_BONUS/src (device 16777225, inode 897968): 25 files, no impossibilities.
+# GAME/src (device 16777225, inode 897942): 20 files, no impossibilities.
+
+# 56 files, no impossibilities in 3 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+GAME_BONUS/src/GetUtilits.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+GAME/src/Main.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+GAME/src/MoveUtilits.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+GAME_BONUS/src/InfoObjects.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all: so_long
+#  Phony target (prerequisite of .PHONY).
+#  Command-line target.
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+GAME_BONUS/src/Setup.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.PHONY: clean run fclean re all
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+GAME_BONUS/src/Exit.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+GAME/src/Collactable.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+GAME_BONUS/src/CreateObjects.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+GAME_BONUS/src/LoadAssets.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-22 09:42:07
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+GAME/src/KeyProcess.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+GAME/src/SetUtilits.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+GAME_BONUS/src/AI.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+GAME_BONUS/src/Drawing.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+GAME_BONUS/src/Move.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+bonus: so_long_bonus
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+GAME/src/Mapping.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+GAME/src/Loop.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+fclean: clean
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 35):
+	rm -rf $(NAME)
+	rm -rf $(BNAME)
+	@make clean -C mlx
+	
+
+# Not a target:
+GAME_BONUS/src/Main.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+GAME_BONUS/src/MoveUtilits.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+GAME_BONUS/src/Math.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+GAME/src/Check.o:
+ 
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+GAME/src/GetUtilits.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+norm:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 31):
+	@norminette src/*.c
+	@norminette bonus/*.c
+	
+
+# Not a target:
+GAME_BONUS/src/AIUtilits.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+so_long_bonus: GAME_BONUS/src/AI.o GAME_BONUS/src/AIUtilits.o GAME_BONUS/src/Animation.o GAME_BONUS/src/Check.o GAME_BONUS/src/Collactable.o GAME_BONUS/src/CreateObjects.o GAME_BONUS/src/Drawing.o GAME_BONUS/src/Exit.o GAME_BONUS/src/Free.o GAME_BONUS/src/GetUtilits.o GAME_BONUS/src/InfoObjects.o GAME_BONUS/src/KeyProcess.o GAME_BONUS/src/LoadAssets.o GAME_BONUS/src/Loop.o GAME_BONUS/src/Main.o GAME_BONUS/src/Mapping.o GAME_BONUS/src/Math.o GAME_BONUS/src/Move.o GAME_BONUS/src/MoveUtilits.o GAME_BONUS/src/SetUtilits.o GAME_BONUS/src/Setup.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 21):
+	$(MAKE) -C ./mlx/
+	$(CC) $(FLAGS) $(LFLAGS) $(MINILIBX) $(BOBJS) -o $(BNAME)
+	
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+GAME/src/InfoObjects.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+GAME/src/Setup.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+GAME_BONUS/src/Animation.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+re: fclean all
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+run: all
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 25):
+	./$(NAME) maps/text.ber
+	
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 28):
+	rm -rf $(OBJS)
+	rm -rf $(BOBJS)
+	
+
+# Not a target:
+GAME_BONUS/src/Collactable.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+GAME/src/Exit.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+GAME/src/CreateObjects.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+GAME_BONUS/src/KeyProcess.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+GAME_BONUS/src/Free.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+GAME/src/LoadAssets.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+so_long: GAME/src/Check.o GAME/src/Collactable.o GAME/src/CreateObjects.o GAME/src/Drawing.o GAME/src/Exit.o GAME/src/GetUtilits.o GAME/src/InfoObjects.o GAME/src/KeyProcess.o GAME/src/LoadAssets.o GAME/src/Loop.o GAME/src/Main.o GAME/src/Mapping.o GAME/src/Move.o GAME/src/MoveUtilits.o GAME/src/SetUtilits.o GAME/src/Setup.o GAME/src/UpdateDirection.o so_long_bonus
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `Makefile', line 15):
+	$(MAKE) -C ./mlx/
+	$(CC) $(FLAGS) $(LFLAGS) $(MINILIBX) $(OBJS) -o $(NAME)
+	
+
+# Not a target:
+GAME_BONUS/src/SetUtilits.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+GAME/src/UpdateDirection.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+GAME_BONUS/src/Mapping.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+GAME_BONUS/src/Loop.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+GAME/src/Drawing.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+GAME/src/Move.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+GAME_BONUS/src/Check.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=51/1024=5%, Rehash=0, Collisions=0/114=0%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 1
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
+
+# Finished Make data base on Wed Jun 22 09:42:24 2022
+
+ 

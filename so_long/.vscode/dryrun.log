@@ -1,0 +1,71 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/aozsayar/Desktop/push3'
+gcc    -c -o GAME/src/Check.o GAME/src/Check.c
+gcc    -c -o GAME/src/Collactable.o GAME/src/Collactable.c
+gcc    -c -o GAME/src/CreateObjects.o GAME/src/CreateObjects.c
+gcc    -c -o GAME/src/Drawing.o GAME/src/Drawing.c
+gcc    -c -o GAME/src/Exit.o GAME/src/Exit.c
+gcc    -c -o GAME/src/GetUtilits.o GAME/src/GetUtilits.c
+gcc    -c -o GAME/src/InfoObjects.o GAME/src/InfoObjects.c
+gcc    -c -o GAME/src/KeyProcess.o GAME/src/KeyProcess.c
+gcc    -c -o GAME/src/LoadAssets.o GAME/src/LoadAssets.c
+gcc    -c -o GAME/src/Loop.o GAME/src/Loop.c
+gcc    -c -o GAME/src/Main.o GAME/src/Main.c
+gcc    -c -o GAME/src/Mapping.o GAME/src/Mapping.c
+gcc    -c -o GAME/src/Move.o GAME/src/Move.c
+gcc    -c -o GAME/src/MoveUtilits.o GAME/src/MoveUtilits.c
+gcc    -c -o GAME/src/SetUtilits.o GAME/src/SetUtilits.c
+gcc    -c -o GAME/src/Setup.o GAME/src/Setup.c
+gcc    -c -o GAME/src/UpdateDirection.o GAME/src/UpdateDirection.c
+gcc    -c -o GAME_BONUS/src/AI.o GAME_BONUS/src/AI.c
+gcc    -c -o GAME_BONUS/src/AIUtilits.o GAME_BONUS/src/AIUtilits.c
+gcc    -c -o GAME_BONUS/src/Animation.o GAME_BONUS/src/Animation.c
+gcc    -c -o GAME_BONUS/src/Check.o GAME_BONUS/src/Check.c
+gcc    -c -o GAME_BONUS/src/Collactable.o GAME_BONUS/src/Collactable.c
+gcc    -c -o GAME_BONUS/src/CreateObjects.o GAME_BONUS/src/CreateObjects.c
+gcc    -c -o GAME_BONUS/src/Drawing.o GAME_BONUS/src/Drawing.c
+gcc    -c -o GAME_BONUS/src/Exit.o GAME_BONUS/src/Exit.c
+gcc    -c -o GAME_BONUS/src/Free.o GAME_BONUS/src/Free.c
+gcc    -c -o GAME_BONUS/src/GetUtilits.o GAME_BONUS/src/GetUtilits.c
+gcc    -c -o GAME_BONUS/src/InfoObjects.o GAME_BONUS/src/InfoObjects.c
+gcc    -c -o GAME_BONUS/src/KeyProcess.o GAME_BONUS/src/KeyProcess.c
+gcc    -c -o GAME_BONUS/src/LoadAssets.o GAME_BONUS/src/LoadAssets.c
+gcc    -c -o GAME_BONUS/src/Loop.o GAME_BONUS/src/Loop.c
+gcc    -c -o GAME_BONUS/src/Main.o GAME_BONUS/src/Main.c
+gcc    -c -o GAME_BONUS/src/Mapping.o GAME_BONUS/src/Mapping.c
+gcc    -c -o GAME_BONUS/src/Math.o GAME_BONUS/src/Math.c
+gcc    -c -o GAME_BONUS/src/Move.o GAME_BONUS/src/Move.c
+gcc    -c -o GAME_BONUS/src/MoveUtilits.o GAME_BONUS/src/MoveUtilits.c
+gcc    -c -o GAME_BONUS/src/SetUtilits.o GAME_BONUS/src/SetUtilits.c
+gcc    -c -o GAME_BONUS/src/Setup.o GAME_BONUS/src/Setup.c
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -C ./mlx/
+ 
+make[1]: Entering directory `/Users/aozsayar/Desktop/push3/mlx'
+cc -O2 -DSTRINGPUTX11   -c -o mlx_shaders.o mlx_shaders.c
+cc -O2 -DSTRINGPUTX11   -c -o mlx_new_window.o mlx_new_window.m
+cc -O2 -DSTRINGPUTX11   -c -o mlx_init_loop.o mlx_init_loop.m
+cc -O2 -DSTRINGPUTX11   -c -o mlx_new_image.o mlx_new_image.m
+cc -O2 -DSTRINGPUTX11   -c -o mlx_xpm.o mlx_xpm.c
+cc -O2 -DSTRINGPUTX11   -c -o mlx_int_str_to_wordtab.o mlx_int_str_to_wordtab.c
+cc -O2 -DSTRINGPUTX11   -c -o mlx_png.o mlx_png.c
+cc -O2 -DSTRINGPUTX11   -c -o mlx_mouse.o mlx_mouse.m
+ar -r libmlx.a mlx_shaders.o mlx_new_window.o mlx_init_loop.o mlx_new_image.o mlx_xpm.o mlx_int_str_to_wordtab.o mlx_png.o mlx_mouse.o
+ranlib libmlx.a
+make[1]: Leaving directory `/Users/aozsayar/Desktop/push3/mlx'
+gcc -Wall -Wextra -Werror -framework OpenGL -framework AppKit ./mlx/libmlx.a -lm GAME_BONUS/src/AI.o GAME_BONUS/src/AIUtilits.o GAME_BONUS/src/Animation.o GAME_BONUS/src/Check.o GAME_BONUS/src/Collactable.o GAME_BONUS/src/CreateObjects.o GAME_BONUS/src/Drawing.o GAME_BONUS/src/Exit.o GAME_BONUS/src/Free.o GAME_BONUS/src/GetUtilits.o GAME_BONUS/src/InfoObjects.o GAME_BONUS/src/KeyProcess.o GAME_BONUS/src/LoadAssets.o GAME_BONUS/src/Loop.o GAME_BONUS/src/Main.o GAME_BONUS/src/Mapping.o GAME_BONUS/src/Math.o GAME_BONUS/src/Move.o GAME_BONUS/src/MoveUtilits.o GAME_BONUS/src/SetUtilits.o GAME_BONUS/src/Setup.o -o so_long_bonus
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -C ./mlx/
+make[1]: Entering directory `/Users/aozsayar/Desktop/push3/mlx'
+cc -O2 -DSTRINGPUTX11   -c -o mlx_shaders.o mlx_shaders.c
+cc -O2 -DSTRINGPUTX11   -c -o mlx_new_window.o mlx_new_window.m
+cc -O2 -DSTRINGPUTX11   -c -o mlx_init_loop.o mlx_init_loop.m
+cc -O2 -DSTRINGPUTX11   -c -o mlx_new_image.o mlx_new_image.m
+cc -O2 -DSTRINGPUTX11   -c -o mlx_xpm.o mlx_xpm.c
+cc -O2 -DSTRINGPUTX11   -c -o mlx_int_str_to_wordtab.o mlx_int_str_to_wordtab.c
+cc -O2 -DSTRINGPUTX11   -c -o mlx_png.o mlx_png.c
+cc -O2 -DSTRINGPUTX11   -c -o mlx_mouse.o mlx_mouse.m
+ar -r libmlx.a mlx_shaders.o mlx_new_window.o mlx_init_loop.o mlx_new_image.o mlx_xpm.o mlx_int_str_to_wordtab.o mlx_png.o mlx_mouse.o
+ranlib libmlx.a
+make[1]: Leaving directory `/Users/aozsayar/Desktop/push3/mlx'
+gcc -Wall -Wextra -Werror -framework OpenGL -framework AppKit ./mlx/libmlx.a -lm GAME/src/Check.o GAME/src/Collactable.o GAME/src/CreateObjects.o GAME/src/Drawing.o GAME/src/Exit.o GAME/src/GetUtilits.o GAME/src/InfoObjects.o GAME/src/KeyProcess.o GAME/src/LoadAssets.o GAME/src/Loop.o GAME/src/Main.o GAME/src/Mapping.o GAME/src/Move.o GAME/src/MoveUtilits.o GAME/src/SetUtilits.o GAME/src/Setup.o GAME/src/UpdateDirection.o -o so_long
+make: Leaving directory `/Users/aozsayar/Desktop/push3'
+ 
