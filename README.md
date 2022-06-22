@@ -1,4 +1,9 @@
 # so_long_PACMAN
 <p algin = "center">
-    <img src = "https://github.com/zsayar17/so_long_PACMAN/blob/main/Ekran%20Resmi%202022-06-22%20%C3%96S%204.14.37.png" />
-    </p>
+    <img width="300" src = "https://github.com/zsayar17/so_long_PACMAN/blob/main/resimler/1.png" />
+    <img width="300" src = "https://github.com/zsayar17/so_long_PACMAN/blob/main/resimler/2.png" />
+    <img width="300" src = "https://github.com/zsayar17/so_long_PACMAN/blob/main/resimler/3.png" />
+    <img width="300" src = "https://github.com/zsayar17/so_long_PACMAN/blob/main/resimler/4.png" />
+    <img width="300" src = "https://github.com/zsayar17/so_long_PACMAN/blob/main/resimler/5.png" />
+    <img width="300" src = "https://github.com/zsayar17/so_long_PACMAN/blob/main/resimler/6.png" />
+ </p>
